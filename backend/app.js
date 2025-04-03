@@ -8,7 +8,6 @@ import { dbConnection } from "./database/dbConnection.js";
 const app = express();
 dotenv.config();
 
-import cors from "cors";
 
 app.use(
   cors({
