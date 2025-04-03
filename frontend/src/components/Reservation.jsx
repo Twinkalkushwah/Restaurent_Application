@@ -40,8 +40,6 @@ const Reservation = () => {
       toast.error(error.response.data.message);
     }
   };
-  console.log("sdffsd",BASE_URL)
-
   return (
     <section className="reservation" id="reservation">
       <div className="container">
